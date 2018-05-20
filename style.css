@@ -1,0 +1,26 @@
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+	border: 0;
+	background-color: #000;
+}
+
+.navbar-brand{
+	float: left;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FFF;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+	color:#FFF;
+}
+
+.navbar-inverse .navbar-nav .active a:hover {
+	/*background-color: #FF1493; */ /*Pink*/
+	background-color: #00BFFF;
+	color:#FFF;
+}
+
+
