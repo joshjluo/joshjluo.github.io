@@ -1,19 +1,26 @@
 body {
-	font-size: 100% !important;
 	font-family: 'Lato' !important, Arial, sans-serif;
 	font-weight: 400 !important;
+}
+
+.navbar {
+	background-color: rgba(255,255,255,0.5);
 }
 
 .header {
 	height: 100vh;
 }
 
+.header-row{
+	height: 100vh;
+}
+
 .header-contents {
-	padding-top: 20%;
+	padding-top: 35%;
 }
 
 .header-main {
-	text-align: center;
+
 }
 
 .name {
@@ -23,11 +30,14 @@ body {
 
 .first-name {
 	font-weight: 300;
+	color: gray;
+	font-size: 150%;
 }
 
 .last-name {
 	font-weight: 700;
 	color: #f1c40f;
+	font-size:150%;
 }
 
 .subtitle {
@@ -36,7 +46,7 @@ body {
 
 .header-details {
 	font-size: 1em;
-	padding-top: 10%;
+	padding-top: 30%;
 }
 
 
@@ -45,6 +55,25 @@ body {
 }
 
 .personal-information-content {
-	line-height: 400%
 }
 
+.resume-section {
+
+}
+
+.resume-section-header {
+	font-size: 1em;
+	font-weight: bold;
+	color: gray;
+}
+
+.col-md-4 {
+	background-color: #FBFBFB;
+}
+
+.resume-section-header-dark {
+	background-color: #F8F8F8;
+}
+.resume-section-content-dark {
+	background-color: #FCFCFC;
+}
