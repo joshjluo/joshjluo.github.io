@@ -1,5 +1,5 @@
 body {
-	font-size: 100%;
+	font-size: 100% !important;
 	font-family: 'Lato' !important, Arial, sans-serif;
 	font-weight: 400 !important;
 }
@@ -27,16 +27,24 @@ body {
 
 .last-name {
 	font-weight: 700;
+	color: #f1c40f;
+}
+
+.subtitle {
+
 }
 
 .header-details {
+	font-size: 1em;
 	padding-top: 10%;
-	padding-left: 30%;
 }
 
 
 .personal-information-title {
-	font-size: 1em;
 	font-weight: bold;
+}
+
+.personal-information-content {
+	line-height: 400%
 }
 
