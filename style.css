@@ -1,26 +1,42 @@
-.navbar{
-	margin-bottom: 0;
-	border-radius: 0;
-	border: 0;
-	background-color: #000;
+body {
+	font-size: 100%;
+	font-family: 'Lato' !important, Arial, sans-serif;
+	font-weight: 400 !important;
 }
 
-.navbar-brand{
-	float: left;
+.header {
+	height: 100vh;
 }
 
-.navbar-inverse .navbar-brand {
-	color: #FFF;
+.header-contents {
+	padding-top: 20%;
 }
 
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-	color:#FFF;
+.header-main {
+	text-align: center;
 }
 
-.navbar-inverse .navbar-nav .active a:hover {
-	/*background-color: #FF1493; */ /*Pink*/
-	background-color: #00BFFF;
-	color:#FFF;
+.name {
+	text-transform: uppercase;
+	letter-spacing: .5em;
 }
 
+.first-name {
+	font-weight: 300;
+}
+
+.last-name {
+	font-weight: 700;
+}
+
+.header-details {
+	padding-top: 10%;
+	padding-left: 30%;
+}
+
+
+.personal-information-title {
+	font-size: 1em;
+	font-weight: bold;
+}
 
