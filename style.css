@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lato' !important, Arial, sans-serif;
 	font-weight: 400 !important;
+	color: gray !important;
 }
 
 .navbar {
@@ -23,6 +24,7 @@ body {
 
 }
 
+/*How to increase name size while keeping it responsive?*/
 .name {
 	text-transform: uppercase;
 	letter-spacing: .5em;
@@ -31,17 +33,15 @@ body {
 .first-name {
 	font-weight: 300;
 	color: gray;
-	font-size: 150%;
 }
 
 .last-name {
 	font-weight: 700;
 	color: #f1c40f;
-	font-size:150%;
 }
 
 .subtitle {
-
+	font-weight: 100;
 }
 
 .header-details {
@@ -67,8 +67,36 @@ body {
 	color: gray;
 }
 
-.col-md-4 {
+.resume-section-header-light {
 	background-color: #FBFBFB;
+}
+
+@media(max-width: 767px) {
+	.name {
+		text-align: center;
+	}
+	.subtitle {
+		text-align: center;
+	}
+	.header-details {
+		text-align: center;
+		/*Make the distance between details larger*/
+	}
+
+	.resume-section-header-light {
+		background-color: white;
+	}
+}
+
+.resume-section-content-wrapper {
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+.resume-section-header-title {
+	text-transform: uppercase;
+	text-align: right;
+	padding: 3rem;
 }
 
 .resume-section-header-dark {
@@ -76,4 +104,13 @@ body {
 }
 .resume-section-content-dark {
 	background-color: #FCFCFC;
+	padding:3rem;
 }
+
+.percentage {
+	color: #FFC107;
+}
+
+.skill-name {
+	/*text-transform: uppercase;
+}*/
