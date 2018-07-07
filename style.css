@@ -112,5 +112,41 @@ body {
 }
 
 .skill-name {
-	/*text-transform: uppercase;
-}*/
+	text-transform: uppercase;
+}
+
+.school-name {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.education-detail {
+	font-weight: 300;
+	font-size: .9em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.table {
+	font-size: .8em;
+}
+
+
+
+
+
+
+
+
+
+
+
