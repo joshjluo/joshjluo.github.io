@@ -140,6 +140,31 @@ body {
 	font-size: .8em;
 }
 
+.timeline-event {
+	border-left-style: solid;
+	border-left-width: 0.1rem;
+	border-left-color: #DADADA;
+}
+
+.timeline-date-container {
+	display: flex;
+	align-items: center;
+}
+
+.timeline-date {
+	font-size: .9em;
+	font-weight: 300;
+}
+
+.circle {
+  height: 2px;
+  width: 2px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+
+
 
 
 
