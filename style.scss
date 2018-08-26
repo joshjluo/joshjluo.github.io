@@ -1,17 +1,48 @@
+@import "./bootstrap-scss/bootstrap.scss";
+
+@mixin center-absolute() {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
 body {
     margin: 0;
-    font:normal 75% Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+}
+
+canvas {
+    display: block;
   }
+
   
-  /* ---- particles.js container ---- */
-  
-  #particles-js {
+#particles-js {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #181818;
-    background-image: url("");
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-  }
+}
+
+.text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#name {
+    font-weight: 100;
+    letter-spacing: 1rem;
+    font-size: 5rem;
+    top: 40%;
+}
+
+#subtitle {
+    font-style: italic;
+    font-weight: 300;
+    top: 51%;
+}

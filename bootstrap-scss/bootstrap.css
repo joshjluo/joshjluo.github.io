@@ -8610,44 +8610,5 @@ h3 {
     border-color: #dee2e6;
   }
 }
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  color: #666666;
-}
 
-canvas {
-  display: block;
-}
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.text {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-#name {
-  font-weight: 100;
-  letter-spacing: 1rem;
-  font-size: 5rem;
-  top: 40%;
-}
-
-#subtitle {
-  font-style: italic;
-  font-weight: 300;
-  top: 51%;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
