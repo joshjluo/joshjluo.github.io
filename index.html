@@ -19,15 +19,37 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Joshua Luo</title>
+    <script>
+      function setHeightToFillViewport() {
+        var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        var contentHeight = document.getElementById('about').clientHeight;
+        document.getElementById('fill-viewport').style.height = viewportHeight - contentHeight;
+      }
+    
+    </script>
   </head>
 
   <body>
     
     <div id="particles-js">
-        <h1 class="text-center text" id="name">JOSHUA LUO</h1>
-        <h6 class="text-center text" id="subtitle">I'm a computer engineering student at The University of Texas at Austin.</h6>
-        <a href="#" class="btn btn-outline-primary" id="download-btn">Download Resume</a>
+        <h1 class="text-center header-text" id="name">JOSHUA LUO</h1>
+        <h6 class="text-center header-text" id="subtitle">I'm a computer engineering student at The University of Texas at Austin.</h6>
+        <a href="./JoshuaLuo_Resume.pdf" target="_blank" class="btn btn-outline-primary" id="download-resume-btn">Download Resume</a>
         <i class="material-icons text-center" id="scroll">keyboard_arrow_down</i>
+    </div>
+
+    <!-- Introduction -->
+    <div class="container text-center" id="about">
+      <h1 class="thin">Hi!</h1>
+      <br>
+      <p>
+        My name is Josh, and I am a Electrical and Computer Engineering student at The University of Texas at Austin, graduating in May 2020. I am specializing in software engineering and computer architecture, and I also do graphic design, photography, and videography on the side. 
+      </p>
+      <p>
+        This website is still under construction, but in the meantime, please check out my resume for more about me!
+      </p>
+      <div id="fill-viewport"></div>
+      
     </div>
       
   
