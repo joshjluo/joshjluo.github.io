@@ -1,7 +1,10 @@
 $enable-rounded: false;
 $primary: #3ab5be;
-//#da4646 red
+// $primary: #da4646;
 @import "./bootstrap-scss/bootstrap.scss";
+$sm: 300px;
+$med: 650px;
+
 
 @mixin center-absolute() {
     left: 0;
@@ -17,8 +20,7 @@ body {
 
 canvas {
     display: block;
-  }
-
+}
   
 #particles-js {
     position: relative;
@@ -29,27 +31,44 @@ canvas {
     background-size: cover;
     background-position: 50% 50%;
 
-    .header-text {
+    #header {
         position: absolute;
         @include center-absolute();
-    }
-    #name {
-        font-weight: 100;
-        letter-spacing: 1rem;
-        font-size: 5rem;
         top: 40%;
     }
-    
+
+    .header-text {
+        text-align: center;
+    }
+    @media(min-width: $sm) {
+        #name {
+            font-weight: 100;
+            letter-spacing: 1rem;
+            font-size: 3rem;
+            margin: 0;
+        }
+
+    }
+    @media(min-width: $med) {
+        #name {
+            font-weight: 100;
+            letter-spacing: 1rem;
+            font-size: 5rem;
+            margin: 0;
+        }
+    }
+
     #subtitle {
         font-style: italic;
         font-weight: 300;
-        top: 51%;
+        margin-bottom: 1rem;
+        // top: 51%;
     }
     
     #download-resume-btn {
         position: absolute;
         width: 10rem;
-        top: 55%;
+        // top: 55%;
         @include center-absolute();
     }
     
