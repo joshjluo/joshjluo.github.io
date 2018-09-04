@@ -8424,36 +8424,50 @@ canvas {
   background-size: cover;
   background-position: 50% 50%;
 }
-#particles-js #header {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 40%;
-}
 #particles-js .header-text {
   text-align: center;
 }
 @media (min-width: 300px) {
+  #particles-js #header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 30%;
+  }
   #particles-js #name {
     font-weight: 100;
     letter-spacing: 1rem;
     font-size: 3rem;
     margin: 0;
   }
+  #particles-js #subtitle {
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 @media (min-width: 650px) {
+  #particles-js #header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 40%;
+  }
   #particles-js #name {
     font-weight: 100;
     letter-spacing: 1rem;
     font-size: 5rem;
     margin: 0;
   }
-}
-#particles-js #subtitle {
-  font-style: italic;
-  font-weight: 300;
-  margin-bottom: 1rem;
+  #particles-js #subtitle {
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
 }
 #particles-js #download-resume-btn {
   position: absolute;
