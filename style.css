@@ -8409,6 +8409,8 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   color: #666666;
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
 }
 
 canvas {
@@ -8496,7 +8498,15 @@ canvas {
   animation: 3s ease-in-out infinite bounce;
 }
 
-.thin {
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.section-title {
   font-weight: 100;
 }
 

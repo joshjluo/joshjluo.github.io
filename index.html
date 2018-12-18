@@ -19,41 +19,65 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Joshua Luo</title>
-    <script>
+    <!-- <script>
       function setHeightToFillViewport() {
         var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
         var contentHeight = document.getElementById('about').clientHeight;
         document.getElementById('fill-viewport').style.height = viewportHeight - contentHeight;
       }
-    
-    </script>
+    </script> -->
   </head>
 
   <body>
+
     
-    <div id="particles-js">
-        <div id="header">
-          <h1 class="header-text" id="name">JOSHUA LUO</h1>
-          <h6 class="header-text" id="subtitle">I'm an Electrical and Computer Engineering student at The University of Texas at Austin.</h6>
-            <a href="./JoshuaLuo_Resume.pdf" target="_blank" class="btn btn-outline-primary text-center" id="download-resume-btn">Download Resume</a>
+      <div id="particles-js" class="section">
+          <div id="header">
+            <h1 class="header-text" id="name">JOSHUA LUO</h1>
+            <h6 class="header-text" id="subtitle">I'm an Electrical and Computer Engineering student at The University of Texas at Austin.</h6>
+              <a href="./JoshuaLuo_Resume.pdf" target="_blank" class="btn btn-outline-primary text-center" id="download-resume-btn">Download Resume</a>
+          </div>
+          <i class="material-icons text-center" id="scroll">keyboard_arrow_down</i>
+      </div>
+
+      <!-- Introduction -->
+      <div class="container section" id="about">
+        <h1 class="section-title text-center">Hey There!</h1></br>
+        <p>
+          I am a Electrical and Computer Engineering student at The University of Texas at Austin, graduating in May 2020. I am specializing in software engineering, and I also do graphic design, photography, and videography on the side. I am currently looking for full-time employment opportunities for 2020!
+        </p>
+        <p>
+          This website is still under construction, but in the meantime, please check out my resume for more about me!
+        </p>
+      </div>
+      
+      <!-- Technical Projects -->
+      <div class="container section">
+        <h1 class="section-title text-center">Technical Projects</h1>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://images.pexels.com/photos/1375807/pexels-photo-1375807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <i class="material-icons text-center" id="scroll">keyboard_arrow_down</i>
-    </div>
+      </div>
 
-    <!-- Introduction -->
-    <div class="container text-center" id="about">
-      <h1 class="thin">Hey There!</h1>
-      <br>
-      <p>
-        My name is Josh, and I am a Electrical and Computer Engineering student at The University of Texas at Austin, graduating in May 2020. I am specializing in software engineering and computer architecture, and I also do graphic design, photography, and videography on the side. 
-      </p>
-      <p>
-        This website is still under construction, but in the meantime, please check out my resume for more about me!
-      </p>
-
-      
-    </div>
-      
-  
+      <!-- Design Projects -->
+      <div class="container section">
+        <h1 class="section-title text-center">Design Projects</h1>
+      </div>
   </body>
 </html>
