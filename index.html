@@ -35,49 +35,128 @@
           <div id="header">
             <h1 class="header-text" id="name">JOSHUA LUO</h1>
             <h6 class="header-text" id="subtitle">I'm an Electrical and Computer Engineering student at The University of Texas at Austin.</h6>
-              <a href="./JoshuaLuo_Resume.pdf" target="_blank" class="btn btn-outline-primary text-center" id="download-resume-btn">Download Resume</a>
+              <a href="./JoshuaLuo_Resume.pdf" class="btn btn-outline-primary" id="download-resume-btn">Download Resume</a>
+
           </div>
           <i class="material-icons text-center" id="scroll">keyboard_arrow_down</i>
       </div>
 
       <!-- Introduction -->
-      <div class="container section" id="about">
-        <h1 class="section-title text-center">Hey There!</h1></br>
-        <p>
-          I am a Electrical and Computer Engineering student at The University of Texas at Austin, graduating in May 2020. I am specializing in software engineering, and I also do graphic design, photography, and videography on the side. I am currently looking for full-time employment opportunities for 2020!
-        </p>
-        <p>
-          This website is still under construction, but in the meantime, please check out my resume for more about me!
-        </p>
+      <div class="container-fluid" id="intro">
+        <div class="container section" id="about">
+          <img src="city.jpg" style="height:5rem; border-radius:50%;">
+          <h1 class="section-title text-center" style="color: white;">Hey There!</h1></br>
+          <p style="color:white;">
+            I am an Electrical and Computer Engineering student at The University of Texas at Austin, graduating in May 2020. I am specializing in software engineering, and I also do graphic design, photography, and videography on the side. Please check out my technical and creative work below. I am currently looking for full-time employment opportunities for 2020!
+          </p>
+        </div>
       </div>
       
       <!-- Technical Projects -->
-      <div class="container section">
-        <h1 class="section-title text-center">Technical Projects</h1>
-        <div class="row">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://images.pexels.com/photos/1375807/pexels-photo-1375807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="container section-full">
+        <h1 class="section-title text-center">Technical Projects</h1></br>
+        
+        <div class="horizontal-scroll-container">
+            <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-              </div>
-            </div>
-          </div>
+              
         </div>
+            
+
       </div>
 
       <!-- Design Projects -->
-      <div class="container section">
+      <div class="container section-full">
         <h1 class="section-title text-center">Design Projects</h1>
+
+        <div class="card-columns">
+            <div class="card">
+              <img class="card-img-top" src="city.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title that wraps to a new line</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="city.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3">
+              <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                <footer class="blockquote-footer">
+                  <small>
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img" src="city.jpg" alt="Card image">
+            </div>
+            <div class="card p-3 text-right">
+              <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
       </div>
   </body>
 </html>
