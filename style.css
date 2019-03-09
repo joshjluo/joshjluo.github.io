@@ -8469,6 +8469,13 @@ canvas {
     margin-bottom: 1rem;
   }
 }
+#particles-js #download-resume-btn {
+  position: absolute;
+  width: 10rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
 @keyframes bounce {
   from, 80%, to {
     transform: translateY(0);
