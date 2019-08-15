@@ -8496,8 +8496,25 @@ canvas {
   animation: 3s ease-in-out infinite bounce;
 }
 
-.thin {
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.section-full {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.section-title {
   font-weight: 100;
+}
+
+#intro {
+  background-color: #3ab5be;
 }
 
 /*# sourceMappingURL=style.css.map */

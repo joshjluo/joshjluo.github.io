@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131844224-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-131844224-1');
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,18 +29,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Joshua Luo</title>
-    <script>
+    <!-- <script>
       function setHeightToFillViewport() {
         var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
         var contentHeight = document.getElementById('about').clientHeight;
         document.getElementById('fill-viewport').style.height = viewportHeight - contentHeight;
       }
-    
-    </script>
+    </script> -->
   </head>
 
   <body>
+
     
+<<<<<<< HEAD
     <div id="particles-js">
         <div id="header">
           <h1 class="header-text" id="name">JOSHUA LUO</h1>
@@ -50,10 +61,82 @@
       <p>
         This website is still under construction, but in the meantime, please check out my resume for more about me!
       </p>
+=======
+      <div id="particles-js" class="section">
+          <div id="header">
+            <h1 class="header-text" id="name">JOSHUA LUO</h1>
+            <h6 class="header-text" id="subtitle">I'm an Electrical and Computer Engineering student at The University of Texas at Austin.</h6>
+              <a href="./JoshuaLuo_TechnicalResume.pdf" class="btn btn-outline-primary" id="download-resume-btn">Download Resume</a>
+>>>>>>> dev
+
+          </div>
+          <i class="material-icons text-center" id="scroll">keyboard_arrow_down</i>
+      </div>
+
+      <!-- Introduction -->
+      <div class="container-fluid" id="intro">
+        <div class="container section" id="about">
+          <img src="./assets/headshot.jpg" style="height:10rem; border-radius:50%;">
+          <br>
+          <br>
+          <h1 class="section-title text-center" style="color: white;">Hey There!</h1></br>
+          <p style="color:white;">
+            I am an Electrical and Computer Engineering student at The University of Texas at Austin, graduating in May 2020. I am specializing in software engineering, and I also do graphic design, photography, and videography on the side. I am currently looking for full-time employment opportunities for 2020!
+          </p>
+        </div>
+      </div>
+      
+      <!-- Technical Projects -->
+      <div class="container section-full">
+        <h1 class="section-title text-center">Technical Projects</h1></br>
+        
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="./assets/balcones.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Full Stack Fantasy Golf Web Application</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Python, SQL, JavaScript, React, AWS, Postman, Git</h6>
+                  <p class="card-text">A full stack fantasy golf web application designed to meet the requirements of a client. Developed a custom API, MySQL database, and Flask backend with Python with a React JS frontend.</p>
+                  <p class="card-text"><small class="text-muted">Spring 2019</small></p>
+                  <a href="http://www.balconeschallenge.me/" class="btn btn-primary">Check it out</a>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="./assets/city.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Neural Networks Playing Video Games</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Python, GCP, Gym Retro, Git</h6>
+                  <p class="card-text">Exploration of how various machine learning algorithms would perform while playing retro video games like Mortal Kombat, Sonic The Hedgehog, and Super Mario Bros. Preprocessed data to improve performance using techniques like frame skipping, object tracking, edge detection, and more. Utilized a Neuro-Evolution of Augmenting Topologies (NEAT) feed-forward network, a PPO2 model, and a curiosity-driven model.</p>
+                  <p class="card-text"><small class="text-muted">Spring 2019</small></p>
+                  <a href="https://towardsdatascience.com/an-exploration-of-neural-networks-playing-video-games-3910dcee8e4a" class="btn btn-primary">Check it out</a>
+
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="./assets/city.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Battle of Hogwarts</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">C, ARM Assembly</h6>
+                  <p class="card-text">Harry Potter video game for the TI TM4C Microcontroller. Interfaced with LEDs, slide potentiometer (ADC), audio jack (DAC), buttons, and LCD screen.</p>
+                  <p class="card-text"><small class="text-muted">Spring 2017</small></p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+              
+        </div>
+            
 
       
-    </div>
-      
-  
   </body>
 </html>
